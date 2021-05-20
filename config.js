@@ -2,17 +2,15 @@ import firebase from 'firebase';
 require('@firebase/firestore')
 
 var firebaseConfig = {
-    apiKey: "AIzaSyASyOjOtJla-X-b3io2eLoaUc_bIRFSIIc",
-    authDomain: "book-santa-app.firebaseapp.com",
-    databaseURL: "https://book-santa-app.firebaseio.com",
-    projectId: "book-santa-app",
-    storageBucket: "book-santa-app.appspot.com",
-    messagingSenderId: "69634746716",
-    appId: "1:69634746716:web:6fbbfc110fb4475365f999",
-    measurementId: "G-DLB7XC0JPL"
-  };
-
-
+  apiKey: "AIzaSyD-weFxyNnKhznOqrY836qh4EtszTwCKFI",
+  authDomain: "wily-a90b3.firebaseapp.com",
+  databaseURL: "https://wily-a90b3.firebaseio.com",
+  projectId: "wily-a90b3",
+  storageBucket: "wily-a90b3.appspot.com",
+  messagingSenderId: "833043568352",
+  appId: "1:833043568352:web:0e0a1e5ef136f9d43de285",
+  measurementId: "G-G68L0LMHRT"
+};
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
