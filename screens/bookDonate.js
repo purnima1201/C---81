@@ -33,22 +33,23 @@ export default class BookDonate extends React.Component{
     }
     keyExtractor = (item, index) => index.toString() 
 
-    renderItem = ({item,i}) => {
-        return(
-            <ListItem
-            key = {i}
-            title = {item.book_name}
-            subtitle = {item.reason_to_request}
-            titleStyle = {{color:'black',fontWeight:'bold',}}
-            rightElement = {
+    renderItem = ( {item, i} ) =>{
+        return (
+          <ListItem
+            key={i}
+            title={item.book_name}
+            subtitle={item.reason_to_request}
+            titleStyle={{ color: 'black', fontWeight: 'bold' }}
+            rightElement={
                 <TouchableOpacity style={styles.button}>
-                    <Text style={{color:'#ffff'}}>View</Text>
+                  <Text style={{color:'#ffff'}}>View</Text>
                 </TouchableOpacity>
-            }
+              }
             bottomDivider
-            />
+          />
         )
-    }
+      }
+    
     render(){
         return(
             <View style = {{flex:1}}>
